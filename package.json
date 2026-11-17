@@ -1,0 +1,14 @@
+{
+  "name": "wf-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo API for the Workload Federation playbook",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-oauth2-jwt-bearer": "^1.6.0"
+  }
+}
